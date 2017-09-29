@@ -20,8 +20,8 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>We would like to check how far from a ibeacon you are</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>location</string>
@@ -38,5 +38,9 @@
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>We would like to know the distance to nearest wibrick</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We would like to know the distance to nearest wibrick</string>
 </dict>
 </plist>

@@ -111,13 +111,13 @@ class AppRangingCallback: LocationCallback {
     override func onSuccess(type: CallbackType){
 
         switch type {
-        case .enterBeacon:
+        case .enterTriggerzone:
             
             //Do something when you are entering a trigger zone
             let triggeredWibrickBeacon = getResponseAsWibrickBeacon()
             print("\(type) \(triggeredWibrickBeacon?.identifier ?? "N/A")")
             break
-        case .exitBeacon:
+        case .exitTriggerZone:
             
             //Do something when you are exiting a trigger zone
             let triggeredWibrickBeacon = getResponseAsWibrickBeacon()

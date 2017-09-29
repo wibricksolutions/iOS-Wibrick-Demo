@@ -1,0 +1,10 @@
+framework module WibrickFramework {
+  umbrella header "WibrickFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module WibrickFramework.Swift {
+    header "WibrickFramework-Swift.h"
+}

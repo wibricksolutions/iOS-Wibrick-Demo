@@ -1,0 +1,19 @@
+//
+//  WibrickFramework.h
+//  WibrickFramework
+//
+//  Created by Anders Zetterström on 2017-07-25.
+//  Copyright © 2017 Wibrick Solutions. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+//! Project version number for WibrickFramework.
+FOUNDATION_EXPORT double WibrickFrameworkVersionNumber;
+
+//! Project version string for WibrickFramework.
+FOUNDATION_EXPORT const unsigned char WibrickFrameworkVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <WibrickFramework/PublicHeader.h>
+
+
